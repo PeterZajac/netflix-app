@@ -18,10 +18,11 @@ const Movie = () => {
   };
 
   const reloadMovie = () => {
-    if (movieList.length === 0) {
+    const allMovies = data.length;
+    if (movieList.length !== allMovies) {
       setMovieList(data);
     } else {
-      alert("Už máš filmy načítané kokot");
+      alert("Už máš filmy načítané ");
     }
   };
   return (
