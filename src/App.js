@@ -1,5 +1,7 @@
+import Movie from "./components/Movie";
+
 function App() {
-  return <h2>cav</h2>;
+  return <Movie />;
 }
 
 export default App;
